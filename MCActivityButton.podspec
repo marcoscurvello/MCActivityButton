@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MCActivityButton"
-  s.version          = "0.1.0.3"
+  s.version          = "0.1.0.4"
   s.summary          = "MCActivityButton custom UIButton that animates an activity indicator."
   s.description      = <<-DESC
 This custom button animates an activity indicator to the right or left of the button's title to indicate progress.'
@@ -27,7 +27,7 @@ This custom button animates an activity indicator to the right or left of the bu
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*.{h,m}'
+  s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'MCActivityButton' => ['Pod/Assets/*.png']
   }
