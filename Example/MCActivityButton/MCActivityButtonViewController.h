@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MCActivityButton/MCActivityButton.h>
 
 
 @interface MCActivityButtonViewController : UIViewController
+
+@property (nonatomic, strong) MCActivityButton *activityButton;
 
 @end
