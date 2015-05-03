@@ -6,6 +6,8 @@
 //
 //
 
+#define animationDuration 0.3
+
 #import "MCActivityButton.h"
 
 @implementation MCActivityButton
@@ -26,7 +28,7 @@
         _buttonFrame = frame;
         _isAnimating = NO;
         
-        [self addTarget:self action:@selector(buttonTouchDown) forControlEvents:UIControlEventTouchDown];
+        [self addTarget:self action:@selector(buttonTouchDown)     forControlEvents:UIControlEventTouchDown];
         [self addTarget:self action:@selector(buttonTouchUpInside) forControlEvents:UIControlEventTouchUpInside];
 
         
@@ -63,14 +65,11 @@
 - (void)buttonTouchDown {
     
     NSLog(@"%s", __PRETTY_FUNCTION__);
-    
 }
-
 
 - (void)buttonTouchUpInside {
     
     NSLog(@"%s", __PRETTY_FUNCTION__);
-
 }
 
 - (void)setHighlighted:(BOOL)highlighted {
@@ -79,36 +78,46 @@
     
     if (highlighted) {
         
-        
         if (self.isAnimating == NO) {
-            
-            [self setTitle:_buttonActionTitle forState:UIControlStateNormal];
+        
+            [self hideText];
             
             CGRect buttonFrame = self.frame;
             CGRect labelFrame  = self.titleLabel.frame;
-            
+        
             float buttonWidth  = buttonFrame.size.width;
             float buttonHeight = buttonFrame.size.height;
-            
-            NSLog(@"buttonWidth: %f buttonHeight: %f buttonFrame: %@", buttonWidth, buttonHeight, NSStringFromCGRect(labelFrame));
-            
+        
             float activityHeight = (buttonHeight / 2);
-            
-            
+        
             _activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
             _activityIndicator.transform = CGAffineTransformMakeScale(1, 1);
             _activityIndicator.backgroundColor = [UIColor orangeColor];
             
-            _activityIndicator.frame = CGRectMake(labelFrame.origin.x - 2 * activityHeight - 10, labelFrame.origin.y, activityHeight, activityHeight);
+            _activityIndicator.frame = CGRectMake(labelFrame.origin.x - self.activityIndicator.frame.size.width, labelFrame.origin.y, activityHeight, activityHeight);
+
+//
+//            NSLog(@"buttonWidth: %f buttonHeight: %f labelFrame: %@", buttonWidth, buttonHeight, NSStringFromCGRect(labelFrame));
+//        
+//            [UIView animateWithDuration:0.5 animations:^{
+//                
+//                [self setTitle:_buttonActionTitle forState:UIControlStateNormal];
+//                
+//
+//                NSLog(@"activityWidth: %f", activityHeight);
+//                
+//                
+//                [self addSubview:_activityIndicator];
+//                [_activityIndicator startAnimating];
+//
+//                
+//            } completion:^(BOOL finished) {
+//                _isAnimating = YES;
+//
+//            }];
             
-            NSLog(@"activityWidth: %f", activityHeight);
-            
-            
-            [self addSubview:_activityIndicator];
-            [_activityIndicator startAnimating];
             _isAnimating = YES;
             
-
         }
         
     
@@ -122,11 +131,80 @@
     
 }
 
+- (void)hideText {
+    
+    [UIView beginAnimations:@"fadeOutText" context:NULL];
+    [UIView setAnimationDuration:animationDuration];
+        self.titleLabel.alpha = 0.0f;
+    [UIView commitAnimations];
+    [NSTimer scheduledTimerWithTimeInterval:animationDuration
+                                     target:self
+                                   selector:@selector(changeLabelText)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+- (void)changeLabelText {
+    
+    [self setTitle:self.buttonActionTitle forState:UIControlStateNormal];
+
+    CGRect labelFrame    = self.titleLabel.frame;
+    float activityHeight = labelFrame.size.height;
+    
+    _activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    _activityIndicator.transform = CGAffineTransformMakeScale(1, 1);
+    _activityIndicator.backgroundColor = [UIColor orangeColor];
+    
+    _activityIndicator.frame = CGRectMake(labelFrame.origin.x - activityHeight * 2, labelFrame.origin.y, activityHeight, activityHeight);
+    
+    self.activityIndicator.alpha = 0.0f;
+    [self addSubview:_activityIndicator];
+    [_activityIndicator startAnimating];
+    
+    [NSTimer scheduledTimerWithTimeInterval:0
+                                     target:self
+                                   selector:@selector(showText)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+- (void)showText {
+    
+    [UIView beginAnimations:@"fadeInText" context:NULL];
+    [UIView setAnimationDuration:animationDuration];
+        self.titleLabel.alpha = 1.0f;
+        self.activityIndicator.alpha = 1.0f;
+    
+    [UIView commitAnimations];
+//    [self animateActivityIndicator];
+
+    
+}
+
+//- (void)animateActivityIndicator {
+//    
+//    CGRect buttonFrame = self.frame;
+//    CGRect labelFrame  = self.titleLabel.frame;
+//    
+////    float buttonWidth    = buttonFrame.size.width;
+////    float buttonHeight   = buttonFrame.size.height;
+//    
+//    float activityHeight = labelFrame.size.height;
+//    
+//    _activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+//    _activityIndicator.transform = CGAffineTransformMakeScale(1, 1);
+//    _activityIndicator.backgroundColor = [UIColor orangeColor];
+//    
+//    _activityIndicator.frame = CGRectMake(labelFrame.origin.x - self.activityIndicator.frame.size.width - 40 , labelFrame.origin.y, activityHeight, activityHeight);
+//    
+//    [self addSubview:_activityIndicator];
+//    [_activityIndicator startAnimating];
+//    
+//}
 
 - (void)createButton {
     
     self.backgroundColor = self.buttonColor;
-    
     
     
 }
