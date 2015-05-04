@@ -10,7 +10,8 @@
 
 typedef NS_ENUM(NSInteger, MCActivityButtonStyle) {
     MCActivityButtonStyleDefault,
-    MCActivityButtonStyleRounded
+    MCActivityButtonStyleAnimatedCircle,
+    MCActivityButtonStyleAnimatedMessage
 };
 
 typedef NS_ENUM(NSInteger, MCActivityButtonAnimationStyle) {
@@ -28,7 +29,11 @@ typedef NS_ENUM(NSInteger, MCActivityButtonAnimationStyle) {
 
 @property (nonatomic, readwrite) CGFloat cornerRadius UI_APPEARANCE_SELECTOR;
 
+@property (nonatomic, readwrite) CGFloat activityIndicatorMargin;
+
 @property (nonatomic, strong) UIColor *buttonColor UI_APPEARANCE_SELECTOR;
+
+@property (nonatomic, strong) UIColor *activityIndicatorColor UI_APPEARANCE_SELECTOR;
 
 @property (nonatomic, strong) NSString *buttonTitle;
 
