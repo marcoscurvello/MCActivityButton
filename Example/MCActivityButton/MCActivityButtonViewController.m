@@ -21,15 +21,27 @@
 {
     [super viewDidLoad];
     
-    _activityButton = [[MCActivityButton alloc] initWithFrame:CGRectMake(50, 200, 200, 40) buttonStyle:MCActivityButtonStyleDefault];
     
-    _activityButton.titleLabel.textColor       = [UIColor whiteColor];
-    _activityButton.titleLabel.backgroundColor = [UIColor purpleColor];
-    _activityButton.backgroundColor            = [UIColor blueColor];
+    //Select the preferred MCActivityButtonStyle
+    _activityButton = [[MCActivityButton alloc] initWithFrame:CGRectMake(40, 200, 140, 40) buttonStyle:MCActivityButtonStyleAnimatedMessage];
     
-    [self.activityButton setButtonActionTitle:@"Logging In..."];
+    _activityButton.titleLabel.textColor = [UIColor whiteColor];
+    _activityButton.backgroundColor      = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
+
+    _activityButton.activityIndicatorMargin = 5;
+    _activityButton.activityIndicatorColor  = [UIColor whiteColor];
+    
+    _activityButton.buttonActionTitle = @"Logging In...";
     [self.activityButton setTitle:@"Sign In" forState:UIControlStateNormal];
     
+    _activityButton.titleLabel.backgroundColor = [UIColor purpleColor];
+    
+    _activityButton.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    
+    
+    // Rounded Edges Setting
+    _activityButton.layer.cornerRadius  = 5;
+    _activityButton.clipsToBounds = YES;
     
     [self.view addSubview:self.activityButton];
     
