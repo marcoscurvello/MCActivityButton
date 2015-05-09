@@ -2,8 +2,9 @@
 
 [![CI Status](http://img.shields.io/travis/Marcos Curvello/MCActivityButton.svg?style=flat)](https://travis-ci.org/Marcos Curvello/MCActivityButton)
 [![Version](https://img.shields.io/cocoapods/v/MCActivityButton.svg?style=flat)](http://cocoapods.org/pods/MCActivityButton)
-[![License](https://img.shields.io/cocoapods/l/MCActivityButton.svg?style=flat)](http://cocoapods.org/pods/MCActivityButton)
-[![Platform](https://img.shields.io/cocoapods/p/MCActivityButton.svg?style=flat)](http://cocoapods.org/pods/MCActivityButton)
+[![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
+
+![Screenshot0][gif0]
 
 ## Requirements
 * ARC
@@ -70,3 +71,4 @@ Marcos Curvello, mrcurvello@gmail.com
 `MCActivityButton` is available under the MIT License][mitLink]. See the LICENSE file for more info.
 
 [mitLink]:http://opensource.org/licenses/MIT
+[gif0]:https://raw.githubusercontent.com/marcoscurvello/MCActivityButton/master/Screenshots/screenshot.gif
