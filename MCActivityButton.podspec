@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MCActivityButton"
-  s.version          = "0.1.0.4"
+  s.version          = "0.2.0"
   s.summary          = "MCActivityButton custom UIButton that animates an activity indicator."
   s.description      = <<-DESC
 This custom button animates an activity indicator to the right or left of the button's title to indicate progress.'
