@@ -8,7 +8,6 @@
 
 #import "MCActivityButtonViewController.h"
 
-
 @interface MCActivityButtonViewController ()
 
 @end
@@ -21,37 +20,93 @@
 {
     [super viewDidLoad];
     
+    // Allocate an instance of MCActivityButton
+    _activityButton = [[MCActivityButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 100, self.view.frame.size.height / 2 - 80, 100, 40)];
     
-    //Select the preferred MCActivityButtonStyle
-    _activityButton = [[MCActivityButton alloc] initWithFrame:CGRectMake(40, 200, 140, 40) buttonStyle:MCActivityButtonStyleAnimatedMessage];
-    
+    // Default UIButton customization
     _activityButton.titleLabel.textColor = [UIColor whiteColor];
+    _activityButton.titleLabel.font      = [UIFont fontWithName:@"HelveticaNeue" size:12];
     _activityButton.backgroundColor      = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
-
-    _activityButton.activityIndicatorMargin = 5;
-    _activityButton.activityIndicatorColor  = [UIColor whiteColor];
     
-    _activityButton.buttonActionTitle = @"Logging In...";
-    [self.activityButton setTitle:@"Sign In" forState:UIControlStateNormal];
+    // Initial and Action Button Title
+    _activityButton.initialTitle  = @"Dowload File";
+    _activityButton.activityTitle = @"Downloading...";
     
-    _activityButton.titleLabel.backgroundColor = [UIColor purpleColor];
+    // Locks subsequent button clicks
+    _activityButton.buttonClickLock = NO;
     
-    _activityButton.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    // Button title animation duration
+    _activityButton.buttonAnimationDuration = 0.5;
     
-    
-    // Rounded Edges Setting
+    // Optional Rounded Edges
     _activityButton.layer.cornerRadius  = 5;
     _activityButton.clipsToBounds = YES;
     
+    //Customize activity indicator
+    _activityButton.activityIndicatorColor  = [UIColor whiteColor];
+    _activityButton.activityIndicatorMargin = 0;
+    _activityButton.activityIndicatorScale  = 0.8;
+    
+    
+    // Allocate an instance of MCActivityButton
+    MCActivityButton *button = [[MCActivityButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 100, self.view.frame.size.height / 2 - 20, 80, 40)];
+    
+    // Default UIButton customization
+    button.titleLabel.textColor = [UIColor whiteColor];
+    button.titleLabel.font      = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    button.backgroundColor      = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
+    
+    // Initial and Action Button Title
+    button.initialTitle  = @"Login";
+    button.activityTitle = @"Logging in...";
+    
+    // Locks subsequent button clicks
+    button.buttonClickLock = YES;
+    
+    // Button title animation duration
+    button.buttonAnimationDuration = 0.5;
+    
+    // Optional Rounded Edges
+    button.layer.cornerRadius      = 5;
+    button.clipsToBounds           = YES;
+    
+    // Customize activity indicator
+    button.activityIndicatorColor  = [UIColor whiteColor];
+    button.activityIndicatorMargin = 6;
+    button.activityIndicatorScale  = 0.8;
+    
+    // Add Buttons to the view
+    [self.view addSubview:button];
     [self.view addSubview:self.activityButton];
     
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Simulate button click
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        
+        [self.activityButton setHighlighted:YES];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+            
+            [self.activityButton stopAnimating];
+            
+        });
+        
+    });
+    
+    // Simulate button click
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+        
+        [button setHighlighted:YES];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+            
+            [button stopAnimating];
+        
+        });
+    
+    });
+        
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
