@@ -68,7 +68,7 @@ Marcos Curvello, mrcurvello@gmail.com
 
 ## License
 
-`MCActivityButton` is available under the MIT License][mitLink]. See the LICENSE file for more info.
+`MCActivityButton` is available under the [MIT License][mitLink]. See the LICENSE file for more info.
 
 [mitLink]:http://opensource.org/licenses/MIT
 [gif0]:https://raw.githubusercontent.com/marcoscurvello/MCActivityButton/master/Screenshots/screenshot.gif
