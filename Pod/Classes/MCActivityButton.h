@@ -14,48 +14,88 @@ typedef NS_ENUM(NSInteger, MCActivityButtonStyle) {
     MCActivityButtonStyleAnimatedMessage
 };
 
-typedef NS_ENUM(NSInteger, MCActivityButtonAnimationStyle) {
-    MCActivityButtonAnimationStyleLeft,
-    MCActivityButtonAnimationStyleRight
-};
-
 @interface MCActivityButton : UIButton
 
-@property (nonatomic, readwrite) MCActivityButtonStyle style;
-
-@property (nonatomic, readwrite) MCActivityButtonAnimationStyle animationStyle;
-
-@property (nonatomic, readwrite) CGRect buttonFrame;
-
-@property (nonatomic, readwrite) CGFloat cornerRadius UI_APPEARANCE_SELECTOR;
-
-@property (nonatomic, readwrite) CGFloat activityIndicatorMargin;
-
-@property (nonatomic, strong) UIColor *buttonColor UI_APPEARANCE_SELECTOR;
-
-@property (nonatomic, strong) UIColor *activityIndicatorColor UI_APPEARANCE_SELECTOR;
-
-@property (nonatomic, strong) NSString *buttonTitle;
-
-@property (nonatomic, strong) NSString *buttonActionTitle;
-
-@property (nonatomic) BOOL isAnimating;
-
+/**
+ *  Activity Indicator View
+ */
 @property (nonatomic, strong) UIActivityIndicatorView *activityIndicator;
 
-#pragma instancetypes
+/**
+ *  Defines Different Animation Styles for MCActivityButton
+ */
+@property (nonatomic, readwrite) MCActivityButtonStyle style;
 
+/**
+ *  Margin Between Button Title and  Activity Indicator
+ */
+@property (nonatomic, readwrite) CGFloat activityIndicatorMargin;
+
+/**
+ *  MCActivityButton initial frame
+ */
+@property (nonatomic, readwrite) CGRect initialFrame;
+
+/**
+ *  MCActivityButton animate to frame
+ */
+@property (nonatomic, readwrite) CGRect activityFrame;
+
+/**
+ *  Activity Indicator color
+ */
+@property (nonatomic, strong) UIColor *activityIndicatorColor UI_APPEARANCE_SELECTOR;
+
+/**
+ *  Initial Button Title
+ */
+@property (nonatomic, strong) NSString *initialTitle;
+
+/**
+ * Animate to Button Title
+ */
+@property (nonatomic, strong) NSString *activityTitle;
+
+/**
+ *  Track button animation status
+ */
+@property (nonatomic) BOOL isAnimating;
+
+/**
+ *  Locks subsequent button clicks
+ */
+@property (nonatomic) BOOL buttonClickLock;
+
+/**
+ *  Activity Indicator size
+ */
+@property float activityIndicatorScale;
+
+/**
+ *  Duration for button title switch
+ */
+@property float buttonAnimationDuration;
+
+/**
+ *  Initializer
+ *
+ *  @param frame MCActivityButton frame
+ *
+ *  @return MCActivityButton instance
+ */
 - (instancetype)initWithFrame:(CGRect)frame;
 
-- (instancetype)initWithFrame:(CGRect)frame buttonStyle:(MCActivityButtonStyle)style;
+/**
+ *
+ *  TO DO implement new button styles
+ */
+//- (instancetype)initWithFrame:(CGRect)frame buttonStyle:(MCActivityButtonStyle)style;
 
-#pragma mark Setters
+/**
+ *  Revert button to initial state
+ */
+- (void)stopAnimating;
 
-- (void)setButtonColor:(UIColor *)buttonColor;
-
-- (void)setButtonTitle:(NSString *)buttonTitle;
-
-- (void)setCornerRadius:(CGFloat)cornerRadius;
 
 
 @end
