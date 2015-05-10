@@ -8,8 +8,7 @@
 
 // MCActivityButton
 #define COCOAPODS_POD_AVAILABLE_MCActivityButton
-// This library does not follow semantic-versioning,
-// so we were not able to define version macros.
-// Please contact the author.
-// Version: 0.1.0.4.
+#define COCOAPODS_VERSION_MAJOR_MCActivityButton 0
+#define COCOAPODS_VERSION_MINOR_MCActivityButton 2
+#define COCOAPODS_VERSION_PATCH_MCActivityButton 0
 
