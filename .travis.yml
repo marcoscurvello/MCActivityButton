@@ -1,20 +1,11 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
-
 language: objective-c
-# cache: cocoapods
-podfile: Example/Podfile
-before_install:
-- brew update
-- gem install cocoapods
-- pod install --project-directory=Example
 
-install:
-# - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
-- brew install xctool
+before_install:
+- export LANG=en_US.UTF-8
+- gem install cocoapods
+- brew update
+- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
 
 script:
-##- set -o pipefail && xcodebuild test -workspace Example/MCActivityButton.xcworkspace -scheme MCActivityButton-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
-- xctool -workspace Example/MCActivityButton.xcworkspace -scheme MCActivityButton-Example build test
+- xctool clean build test -workspace Example/MCActivityButton.xcworkspace -scheme MCActivityButton-Example -sdk iphonesimulator8.1 ONLY_ACTIVE_ARCH=NO
 - pod lib lint --quick
