@@ -8,8 +8,8 @@
 
 This is currently a work in progress and has not been thoroughly tested. Use at your own risk.
 
-![Screenshot0][gif0]
----
+![Demo][demo]
+
 
 ## Requirements
 * ARC
@@ -66,7 +66,19 @@ button.activityIndicatorScale  = 0.8;
 // Then Add Your Button to the view
 [self.view addSubview:button];
 
+// Force button to return to it's initial state
+[button stopAnimating];
+
 ```
+
+## To Do
+
+* Fully implement view tests.
+* Dynamic frame calculations.
+* Different animation styles.
+* Different activity indicator styles.
+* Background and title color change.
+
 
 ## Author
 
@@ -78,4 +90,4 @@ Marcos Curvello, mrcurvello@gmail.com
 
 [mitLink]:http://opensource.org/licenses/MIT
 [license]:https://github.com/marcoscurvello/MCActivityButton/blob/master/LICENSE
-[gif0]:https://raw.githubusercontent.com/marcoscurvello/MCActivityButton/master/Screenshots/screenshot.gif
+[demo]:https://raw.githubusercontent.com/marcoscurvello/MCActivityButton/master/Screenshots/demo.gif
