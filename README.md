@@ -4,12 +4,12 @@
 [![Version](https://img.shields.io/cocoapods/v/MCActivityButton.svg?style=flat)](http://cocoapods.org/pods/MCActivityButton)
 [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
 
-![Screenshot0][gif0]
-
 `MCActivityButton` is an objective-c `UIButton` subclass that animates a standard iOS activity indicator with a custom title when tapped.
 
 This is currently a work in progress and has not been thoroughly tested. Use at your own risk.
 
+![Screenshot0][gif0]
+---
 
 ## Requirements
 * ARC
@@ -22,7 +22,7 @@ From [CocoaPods](http://cocoapods.org):
 ```ruby
 pod "MCActivityButton"
 ```
----
+
 ## Usage
 
 ```objc
