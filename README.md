@@ -1,6 +1,6 @@
 # MCActivityButton
 
-[![CI Status](http://img.shields.io/travis/Marcos Curvello/MCActivityButton.svg?style=flat)](https://travis-ci.org/Marcos Curvello/MCActivityButton)
+[![CI Status](http://img.shields.io/travis/marcoscurvello/MCActivityButton.svg?style=flat)](https://travis-ci.org/marcoscurvello/MCActivityButton)
 [![Version](https://img.shields.io/cocoapods/v/MCActivityButton.svg?style=flat)](http://cocoapods.org/pods/MCActivityButton)
 [![license MIT](http://img.shields.io/badge/license-MIT-orange.png)][mitLink]
 
