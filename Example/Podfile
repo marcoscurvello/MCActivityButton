@@ -1,12 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
+platform :ios, '8.0'
+
 target 'MCActivityButton', :exclusive => true do
   pod "MCActivityButton", :path => "../"
 end
 
 target 'Tests', :exclusive => true do
-  # pod "MCActivityButton", :path => "../"
-
-  pod 'Kiwi'
-  pod 'FBSnapshotTestCase'
+  pod "MCActivityButton", :path => "../"
 end
