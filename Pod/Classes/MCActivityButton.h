@@ -10,8 +10,8 @@
 
 typedef NS_ENUM(NSInteger, MCActivityButtonStyle) {
     MCActivityButtonStyleDefault,
-    MCActivityButtonStyleAnimatedCircle,
-    MCActivityButtonStyleAnimatedMessage
+    MCActivityButtonStyleIncrease,
+    MCActivityButtonStyleDecrease
 };
 
 @interface MCActivityButton : UIButton
@@ -64,7 +64,7 @@ typedef NS_ENUM(NSInteger, MCActivityButtonStyle) {
 /**
  *  Locks subsequent button clicks
  */
-@property (nonatomic) BOOL buttonClickLock;
+@property (nonatomic) BOOL lockTaps;
 
 /**
  *  Activity Indicator size

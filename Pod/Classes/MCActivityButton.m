@@ -13,12 +13,12 @@
 
 @implementation MCActivityButton
 
+@synthesize lockTaps                = _lockTaps;
 @synthesize isAnimating             = _isAnimating;
 @synthesize initialFrame            = _initialFrame;
 @synthesize activityFrame           = _activityFrame;
 @synthesize initialTitle            = _initialTitle;
 @synthesize activityTitle           = _activityTitle;
-@synthesize buttonClickLock         = _buttonClickLock;
 @synthesize activityIndicator       = _activityIndicator;
 @synthesize activityIndicatorScale  = _activityIndicatorScale;
 @synthesize activityIndicatorMargin = _activityIndicatorMargin;
@@ -75,7 +75,7 @@
             [self startAnimating];
         }
         else {
-            if (!self.buttonClickLock) {
+            if (!self.lockTaps) {
                 [self stopAnimating];
             }
             
