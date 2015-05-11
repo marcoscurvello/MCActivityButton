@@ -16,7 +16,7 @@ This is currently a work in progress and has not been thoroughly tested. Use at 
 
 ## Installation
 
-From [CocoaPods](http://cocoapods.org):
+[CocoaPods](http://cocoapods.org)
 
 #### Podfile
 ```ruby
@@ -41,8 +41,8 @@ Once you have your button object customize it like so:
 ```objc
 // Default UIButton customization
 [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-button.titleLabel.font      = [UIFont fontWithName:@"HelveticaNeue" size:14];
-button.backgroundColor      = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
+button.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+button.backgroundColor = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
 
 // Initial and Action Button Title
 button.initialTitle  = @"Login";
