@@ -4,12 +4,17 @@
 
 language: objective-c
 # cache: cocoapods
-# podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
+podfile: Example/Podfile
+before_install:
+- brew update
+- gem install cocoapods
+- pod install --project-directory=Example
+
 install:
-- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+# - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+- brew install xctool
+
 script:
-- set -o pipefail && xcodebuild test -workspace Example/MCActivityButton.xcworkspace -scheme MCActivityButton-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+##- set -o pipefail && xcodebuild test -workspace Example/MCActivityButton.xcworkspace -scheme MCActivityButton-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- xctool -workspace Example/MCActivityButton.xcworkspace -scheme MCActivityButton-Example build test
 - pod lib lint --quick
