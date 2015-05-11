@@ -1,16 +1,14 @@
 PODS:
-  - FBSnapshotTestCase (1.7)
-  - Kiwi (2.3.1)
-  - MCActivityButton (0.2.0)
+  - MCActivityButton (0.2.1)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
-  - Kiwi
-  - MCActivityButton
+  - MCActivityButton (from `../`)
+
+EXTERNAL SOURCES:
+  MCActivityButton:
+    :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 1eea5145c1f2fa907812ab92e1d6063a8d809b4e
-  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
-  MCActivityButton: 5fefed5fea2825dfdb62745ee2c436f5ffb970be
+  MCActivityButton: df5eac28b4d16b0b145b72dcb4d64da494a77226
 
-COCOAPODS: 0.37.0
+COCOAPODS: 0.37.1

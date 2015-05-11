@@ -6,15 +6,9 @@
 // project.
 
 
-// FBSnapshotTestCase
-#define COCOAPODS_POD_AVAILABLE_FBSnapshotTestCase
-#define COCOAPODS_VERSION_MAJOR_FBSnapshotTestCase 1
-#define COCOAPODS_VERSION_MINOR_FBSnapshotTestCase 7
-#define COCOAPODS_VERSION_PATCH_FBSnapshotTestCase 0
-
-// Kiwi
-#define COCOAPODS_POD_AVAILABLE_Kiwi
-#define COCOAPODS_VERSION_MAJOR_Kiwi 2
-#define COCOAPODS_VERSION_MINOR_Kiwi 3
-#define COCOAPODS_VERSION_PATCH_Kiwi 1
+// MCActivityButton
+#define COCOAPODS_POD_AVAILABLE_MCActivityButton
+#define COCOAPODS_VERSION_MAJOR_MCActivityButton 0
+#define COCOAPODS_VERSION_MINOR_MCActivityButton 2
+#define COCOAPODS_VERSION_PATCH_MCActivityButton 1
 
