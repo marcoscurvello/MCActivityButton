@@ -40,7 +40,7 @@ Once you have your button object customize it like so:
 
 ```objc
 // Default UIButton customization
-button.titleLabel.textColor = [UIColor whiteColor];
+[button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
 button.titleLabel.font      = [UIFont fontWithName:@"HelveticaNeue" size:14];
 button.backgroundColor      = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
 
@@ -49,14 +49,14 @@ button.initialTitle  = @"Login";
 button.activityTitle = @"Logging in...";
 
 // Locks Subsequent Button Clicks
-button.buttonClickLock = YES;
+button.lockTaps = YES;
 
 // Button title animation duration
 button.buttonAnimationDuration = 0.5;
 
 // Optional Rounded Edges
-button.layer.cornerRadius      = 5;
-button.clipsToBounds           = YES;
+button.layer.cornerRadius = 5;
+button.clipsToBounds = YES;
 
 // Customize Activity Indicator
 button.activityIndicatorColor  = [UIColor whiteColor];
@@ -71,14 +71,14 @@ button.activityIndicatorScale  = 0.8;
 
 ```
 
-## To Do
+## To do
 
 * Fully implement view tests.
 * Dynamic frame calculations.
 * Different animation styles.
 * Different activity indicator styles.
 * Background and title color change.
-
+* Swift version is underway, with all the above mentioned to-do's.
 
 ## Author
 
