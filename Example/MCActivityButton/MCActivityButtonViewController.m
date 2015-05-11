@@ -24,16 +24,16 @@
     _activityButton = [[MCActivityButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 100, self.view.frame.size.height / 2 - 80, 100, 40)];
     
     // Default UIButton customization
-    _activityButton.titleLabel.textColor = [UIColor whiteColor];
-    _activityButton.titleLabel.font      = [UIFont fontWithName:@"HelveticaNeue" size:12];
-    _activityButton.backgroundColor      = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
+    [_activityButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _activityButton.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:12];
+    _activityButton.backgroundColor = [UIColor darkGrayColor];
     
     // Initial and Action Button Title
     _activityButton.initialTitle  = @"Dowload File";
     _activityButton.activityTitle = @"Downloading...";
     
     // Locks subsequent button clicks
-    _activityButton.buttonClickLock = NO;
+    _activityButton.lockTaps = NO;
     
     // Button title animation duration
     _activityButton.buttonAnimationDuration = 0.5;
@@ -52,27 +52,29 @@
     MCActivityButton *button = [[MCActivityButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 100, self.view.frame.size.height / 2 - 20, 80, 40)];
     
     // Default UIButton customization
-    button.titleLabel.textColor = [UIColor whiteColor];
-    button.titleLabel.font      = [UIFont fontWithName:@"HelveticaNeue" size:14];
-    button.backgroundColor      = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    button.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:14];
+    button.backgroundColor = [UIColor colorWithRed:0.000 green:0.294 blue:0.624 alpha:1.000];
     
     // Initial and Action Button Title
     button.initialTitle  = @"Login";
     button.activityTitle = @"Logging in...";
     
     // Locks subsequent button clicks
-    button.buttonClickLock = YES;
+    button.lockTaps = NO;
     
     // Button title animation duration
     button.buttonAnimationDuration = 0.5;
     
     // Optional Rounded Edges
-    button.layer.cornerRadius      = 5;
-    button.clipsToBounds           = YES;
+    button.layer.cornerRadius = 20;
+    button.clipsToBounds      = YES;
     
-    // Customize activity indicator
+    // Customize activity indicator color
     button.activityIndicatorColor  = [UIColor whiteColor];
-    button.activityIndicatorMargin = 6;
+    button.activityIndicatorMargin = 7;
+    
+    // Customize the scale factor of the activity indicator
     button.activityIndicatorScale  = 0.8;
     
     // Add Buttons to the view
@@ -87,6 +89,7 @@
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
             
+            // Stop button animation
             [self.activityButton stopAnimating];
             
         });
@@ -100,6 +103,7 @@
         
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
             
+            // Stop button animation
             [button stopAnimating];
         
         });
