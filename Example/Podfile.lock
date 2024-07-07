@@ -6,9 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   MCActivityButton:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MCActivityButton: df5eac28b4d16b0b145b72dcb4d64da494a77226
+  MCActivityButton: 4ba6fce92c269cc55cfbff0ca922fb6c75b39373
 
-COCOAPODS: 0.37.1
+PODFILE CHECKSUM: 18842deaa976f113660b702d8541e7b3b3f49204
+
+COCOAPODS: 1.15.2

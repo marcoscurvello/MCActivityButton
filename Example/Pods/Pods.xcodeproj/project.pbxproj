@@ -7,431 +7,339 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		139D9CB8DE021AD45DD5C47F /* MCActivityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D08E6C1F681DF9B516B486 /* MCActivityButton.m */; };
-		465CC8445EAF089FA8A4F083 /* MCActivityButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FCA543DF103F199F25B9FF /* MCActivityButton.h */; };
-		5DB76A9D6974949906818C59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC1E598E5EB6717D298ADA /* Foundation.framework */; };
-		6CAA6D12885736C44E81F328 /* Pods-Tests-MCActivityButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BA8DF81649CE09D1EF45CD /* Pods-Tests-MCActivityButton-dummy.m */; };
-		843C14E00AC03383C54A4A08 /* MCActivityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D08E6C1F681DF9B516B486 /* MCActivityButton.m */; };
-		DB397B467BC368FEFDA58EF5 /* Pods-MCActivityButton-MCActivityButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CE3E696FA3E6FD57B047A /* Pods-MCActivityButton-MCActivityButton-dummy.m */; };
-		E3DE0578FA6A710D5FE38541 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F50B57D71F12D2D31E07E6 /* Pods-Tests-dummy.m */; };
-		E8326C890C8A8ECA2E32E013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC1E598E5EB6717D298ADA /* Foundation.framework */; };
-		E98D096884800A5884F4752D /* MCActivityButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FCA543DF103F199F25B9FF /* MCActivityButton.h */; };
-		F204725D9471A728F9E96DDD /* Pods-MCActivityButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 366D17902CD97B9E57A6DBB9 /* Pods-MCActivityButton-dummy.m */; };
-		F28073D0E82476B756F0C731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC1E598E5EB6717D298ADA /* Foundation.framework */; };
-		FDB3A77A92074EE698FDB13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AC1E598E5EB6717D298ADA /* Foundation.framework */; };
+		63983E99941285F827D40C4379024922 /* MCActivityButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB201EE666CDDF2D9EF284FD8A856F2 /* MCActivityButton.m */; };
+		6F4A08ABAF87219D586367081D621991 /* MCActivityButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2C0977C7FECB39345ED1CC56FD1B07 /* MCActivityButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C7389C898F7002BC2E2369439A46322 /* MCActivityButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA27B4408E20A614D59A41F4775AD2E4 /* MCActivityButton-dummy.m */; };
+		AC821241D3F987DCAF7D096F2B064B68 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A7422175D12AB337AF12829BD709B /* Pods-Tests-dummy.m */; };
+		C3BDC189E74F384D4669833AD9685DA7 /* Pods-MCActivityButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7F908E7F72C824E6232AC7C507ABE6 /* Pods-MCActivityButton-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		265B6C0506C82487250517FF /* PBXContainerItemProxy */ = {
+		0F5A324AE1375AB7CA5E6DE7E8579CB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8FE14EC2F7608AB876B955A7 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4218395C2A404CA7B143DBF5;
-			remoteInfo = "Pods-Tests-MCActivityButton-MCActivityButton";
+			remoteGlobalIDString = CEFCBF6EA78408DB95B2F0CA0E1DA54B;
+			remoteInfo = MCActivityButton;
 		};
-		89958CDF05E3C6366B4F1CF9 /* PBXContainerItemProxy */ = {
+		2160623865A6596C189ED7CF28574E44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8FE14EC2F7608AB876B955A7 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ACD3988D5D9319AF7E303753;
-			remoteInfo = "Pods-MCActivityButton-MCActivityButton";
+			remoteGlobalIDString = DA605978F559606B8277C0F2A5E665DF;
+			remoteInfo = "MCActivityButton-MCActivityButton";
 		};
-		A909EC16147098C743045E5A /* PBXContainerItemProxy */ = {
+		C8E2001933687B497B3966C5F3608CFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8FE14EC2F7608AB876B955A7 /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D1A10472146C2702CC99CA9;
-			remoteInfo = "Pods-MCActivityButton-MCActivityButton-MCActivityButton";
-		};
-		E0A7D9AB2122C0ECFE4885E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FE14EC2F7608AB876B955A7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC7ADD4BA8C3BB27933F25DB;
-			remoteInfo = "Pods-Tests-MCActivityButton";
+			remoteGlobalIDString = CEFCBF6EA78408DB95B2F0CA0E1DA54B;
+			remoteInfo = MCActivityButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000E078CF866FE15F17F2635 /* Pods-MCActivityButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCActivityButton-resources.sh"; sourceTree = "<group>"; };
-		03B512680C202307A3414058 /* Pods-MCActivityButton-MCActivityButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCActivityButton-MCActivityButton.xcconfig"; sourceTree = "<group>"; };
-		07DAFE0BC4DEA318CA91BF9E /* Pods-MCActivityButton-MCActivityButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCActivityButton-MCActivityButton-Private.xcconfig"; sourceTree = "<group>"; };
-		0B664D7D0072BD2CC263DA86 /* Pods-Tests-MCActivityButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-MCActivityButton-prefix.pch"; path = "../Pods-Tests-MCActivityButton/Pods-Tests-MCActivityButton-prefix.pch"; sourceTree = "<group>"; };
-		0C2C0AF27DDCDC5D51A86642 /* Pods-Tests-MCActivityButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-MCActivityButton.xcconfig"; path = "../Pods-Tests-MCActivityButton/Pods-Tests-MCActivityButton.xcconfig"; sourceTree = "<group>"; };
-		17F50B57D71F12D2D31E07E6 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		2186682A1D9C2011E3408C02 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		283BACB37417FE708C5D8EF7 /* libPods-MCActivityButton-MCActivityButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCActivityButton-MCActivityButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A574C009A4EDDB0B6161C8E /* Pods-MCActivityButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCActivityButton.debug.xcconfig"; sourceTree = "<group>"; };
-		2FC9DFFF05830AAD6A6FF8C7 /* Pods-MCActivityButton-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCActivityButton-environment.h"; sourceTree = "<group>"; };
-		366D17902CD97B9E57A6DBB9 /* Pods-MCActivityButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCActivityButton-dummy.m"; sourceTree = "<group>"; };
-		3F2BB0C70CDF54E68D50F6DD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		480ED7442D14563DF4A8D865 /* Pods-MCActivityButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCActivityButton-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4BF605B3C0DB16F85E1AE392 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		6B1CE3E696FA3E6FD57B047A /* Pods-MCActivityButton-MCActivityButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCActivityButton-MCActivityButton-dummy.m"; sourceTree = "<group>"; };
-		89ABCE695DFC1AA2A1FF763D /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89FCA543DF103F199F25B9FF /* MCActivityButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MCActivityButton.h; sourceTree = "<group>"; };
-		9401803EF0ECDB9291CAD34B /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		979D7BAFAD1AF24580746FDF /* libPods-MCActivityButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MCActivityButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		982178405BB71B7C037BA913 /* MCActivityButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCActivityButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BD63BE2E216EB60E4DAE3B5 /* Pods-MCActivityButton-MCActivityButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCActivityButton-MCActivityButton-prefix.pch"; sourceTree = "<group>"; };
-		A3BA8DF81649CE09D1EF45CD /* Pods-Tests-MCActivityButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-MCActivityButton-dummy.m"; path = "../Pods-Tests-MCActivityButton/Pods-Tests-MCActivityButton-dummy.m"; sourceTree = "<group>"; };
-		A9D08E6C1F681DF9B516B486 /* MCActivityButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MCActivityButton.m; sourceTree = "<group>"; };
-		B590A0903859CAD2D0924DE6 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C80D5084B4F6264C75033B06 /* MCActivityButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCActivityButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCE07A97A297B9A417058647 /* Pods-MCActivityButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCActivityButton.release.xcconfig"; sourceTree = "<group>"; };
-		E169B399B7379F645C9C2B84 /* Pods-Tests-MCActivityButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-MCActivityButton-Private.xcconfig"; path = "../Pods-Tests-MCActivityButton/Pods-Tests-MCActivityButton-Private.xcconfig"; sourceTree = "<group>"; };
-		E2AAB7A38E3ECEEECD15ABC6 /* libPods-Tests-MCActivityButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-MCActivityButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F45FDBE8EA29FCF64E236ADC /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F7AC1E598E5EB6717D298ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F7BC570B7D345149ECDE38E6 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F98D485EBA521A6A3CD96C48 /* Pods-MCActivityButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCActivityButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		1714233C14474315EA25A4C9012A890C /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E3E2A2F8805E91F42706A019F009D98 /* MCActivityButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCActivityButton-prefix.pch"; sourceTree = "<group>"; };
+		1E73719CBD12DDD87273CD4B5518340F /* MCActivityButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCActivityButton.debug.xcconfig; sourceTree = "<group>"; };
+		2C4BB702C211C3823756DC43925F6339 /* Pods-MCActivityButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCActivityButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FE3A9FD19D82FCC085840214CC7D437 /* MCActivityButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCActivityButton.release.xcconfig; sourceTree = "<group>"; };
+		339A7422175D12AB337AF12829BD709B /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		3A7F908E7F72C824E6232AC7C507ABE6 /* Pods-MCActivityButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCActivityButton-dummy.m"; sourceTree = "<group>"; };
+		3FB201EE666CDDF2D9EF284FD8A856F2 /* MCActivityButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCActivityButton.m; path = Pod/Classes/MCActivityButton.m; sourceTree = "<group>"; };
+		43307C1E9E4B10AB27E3A9DF9CA19940 /* Pods-MCActivityButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCActivityButton.release.xcconfig"; sourceTree = "<group>"; };
+		434147598FA8ADC7F1D6D30C2D898247 /* MCActivityButton */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MCActivityButton; path = libMCActivityButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5E2AA552A6829035B4C29FD5CCDA95 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55F6B0C58CB4A0A510B4E89F068FDF9F /* Pods-MCActivityButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCActivityButton.debug.xcconfig"; sourceTree = "<group>"; };
+		90B001ECAB7F0B8DD82CF9089F6509A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC9B210F87CC585DCD002CA5D82E95C /* MCActivityButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MCActivityButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1263234AA4A550B5BF4A2B6BD729766 /* Pods-MCActivityButton */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-MCActivityButton"; path = "libPods-MCActivityButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A403D8375BEE459B699AB28E57E8CE95 /* MCActivityButton-MCActivityButton */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MCActivityButton-MCActivityButton"; path = MCActivityButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7079F1623A7E63E20C2C8858A6AC2B9 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		AD2C0977C7FECB39345ED1CC56FD1B07 /* MCActivityButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCActivityButton.h; path = Pod/Classes/MCActivityButton.h; sourceTree = "<group>"; };
+		AF4B82C7ACE8B05C466C3E282D0689AF /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B6057BD33FC08927FF57922155465D86 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D250B4485A7CA93138A83BA4A3E8E7ED /* Pods-MCActivityButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCActivityButton-resources.sh"; sourceTree = "<group>"; };
+		DA27B4408E20A614D59A41F4775AD2E4 /* MCActivityButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCActivityButton-dummy.m"; sourceTree = "<group>"; };
+		E98BBB385B9492264D0A4AA0162D8322 /* ResourceBundle-MCActivityButton-MCActivityButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MCActivityButton-MCActivityButton-Info.plist"; sourceTree = "<group>"; };
+		F11CAFA106A988844B0C7798675FDB4A /* Pods-MCActivityButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCActivityButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC95D668E217CFBB25845AA15162348B /* Pods-Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Tests"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCF97D27CB984075B808D2A28AB0398 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24B6DD26D460803E55AAA225 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDB3A77A92074EE698FDB13F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76E753CC98EA8C8A08B7E0CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DB76A9D6974949906818C59 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8AEFF9CBE6D964278C08DB70 /* Frameworks */ = {
+		1E710D03360572C9325C349825CCDAD2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C89280C4BC9338FD116956E1 /* Frameworks */ = {
+		27944B8D9E6AAE86D71187E094A1D595 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0389A808D42B19240393CB7 /* Frameworks */ = {
+		28A10B7E62D75B1CF22BC1E9DE8B3A8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8326C890C8A8ECA2E32E013 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F271278FBBFE920AC07E9727 /* Frameworks */ = {
+		FDBBF5EC647080FD270C88185B651BB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28073D0E82476B756F0C731 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AAD0632BFA6407964D0E85E /* Pod */ = {
+		1B25AA7AE3501ABB5E2CFDA543A5C04A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6313CF0CEB2D2ED6097D237C /* Classes */,
+				4AE7B6779F6D6B3640F6B9844A40990E /* MCActivityButton */,
 			);
-			path = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0C93865AABCBEAACE1F80949 /* Pods-Tests */ = {
+		304D267C65905FA1C88BA8AF0E46E635 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89ABCE695DFC1AA2A1FF763D /* Pods-Tests-acknowledgements.markdown */,
-				B590A0903859CAD2D0924DE6 /* Pods-Tests-acknowledgements.plist */,
-				17F50B57D71F12D2D31E07E6 /* Pods-Tests-dummy.m */,
-				4BF605B3C0DB16F85E1AE392 /* Pods-Tests-environment.h */,
-				9401803EF0ECDB9291CAD34B /* Pods-Tests-resources.sh */,
-				2186682A1D9C2011E3408C02 /* Pods-Tests.debug.xcconfig */,
-				F45FDBE8EA29FCF64E236ADC /* Pods-Tests.release.xcconfig */,
+				434147598FA8ADC7F1D6D30C2D898247 /* MCActivityButton */,
+				A403D8375BEE459B699AB28E57E8CE95 /* MCActivityButton-MCActivityButton */,
+				A1263234AA4A550B5BF4A2B6BD729766 /* Pods-MCActivityButton */,
+				FC95D668E217CFBB25845AA15162348B /* Pods-Tests */,
 			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		61DF38168CC4A0B7C99228A9 /* MCActivityButton */ = {
+		36935E107EC0FF71EEA1A4A2C41FFF1B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0AAD0632BFA6407964D0E85E /* Pod */,
-				A824A62A21ADB917E3C2DA29 /* Support Files */,
+				936E1CBFA26769ABAA509DC020A0D5A3 /* Pods-MCActivityButton */,
+				D8C3D4F0DDFD6543DEF7E532A279F71D /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4AE7B6779F6D6B3640F6B9844A40990E /* MCActivityButton */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C0977C7FECB39345ED1CC56FD1B07 /* MCActivityButton.h */,
+				3FB201EE666CDDF2D9EF284FD8A856F2 /* MCActivityButton.m */,
+				7573772AF45F213AC853F66ECA4DDCFE /* Pod */,
+				7F1182BD2BC4ABFBF6D154D725B1FA8C /* Support Files */,
 			);
 			name = MCActivityButton;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		6313CF0CEB2D2ED6097D237C /* Classes */ = {
+		7573772AF45F213AC853F66ECA4DDCFE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				89FCA543DF103F199F25B9FF /* MCActivityButton.h */,
-				A9D08E6C1F681DF9B516B486 /* MCActivityButton.m */,
+				90B001ECAB7F0B8DD82CF9089F6509A2 /* LICENSE */,
+				9FC9B210F87CC585DCD002CA5D82E95C /* MCActivityButton.podspec */,
+				FFCF97D27CB984075B808D2A28AB0398 /* README.md */,
 			);
-			path = Classes;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		7E0EA0130B176DF35359BE96 /* Pods-MCActivityButton */ = {
+		7F1182BD2BC4ABFBF6D154D725B1FA8C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				480ED7442D14563DF4A8D865 /* Pods-MCActivityButton-acknowledgements.markdown */,
-				F98D485EBA521A6A3CD96C48 /* Pods-MCActivityButton-acknowledgements.plist */,
-				366D17902CD97B9E57A6DBB9 /* Pods-MCActivityButton-dummy.m */,
-				2FC9DFFF05830AAD6A6FF8C7 /* Pods-MCActivityButton-environment.h */,
-				000E078CF866FE15F17F2635 /* Pods-MCActivityButton-resources.sh */,
-				2A574C009A4EDDB0B6161C8E /* Pods-MCActivityButton.debug.xcconfig */,
-				DCE07A97A297B9A417058647 /* Pods-MCActivityButton.release.xcconfig */,
+				DA27B4408E20A614D59A41F4775AD2E4 /* MCActivityButton-dummy.m */,
+				1E3E2A2F8805E91F42706A019F009D98 /* MCActivityButton-prefix.pch */,
+				1E73719CBD12DDD87273CD4B5518340F /* MCActivityButton.debug.xcconfig */,
+				2FE3A9FD19D82FCC085840214CC7D437 /* MCActivityButton.release.xcconfig */,
+				E98BBB385B9492264D0A4AA0162D8322 /* ResourceBundle-MCActivityButton-MCActivityButton-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MCActivityButton";
+			sourceTree = "<group>";
+		};
+		936E1CBFA26769ABAA509DC020A0D5A3 /* Pods-MCActivityButton */ = {
+			isa = PBXGroup;
+			children = (
+				2C4BB702C211C3823756DC43925F6339 /* Pods-MCActivityButton-acknowledgements.markdown */,
+				F11CAFA106A988844B0C7798675FDB4A /* Pods-MCActivityButton-acknowledgements.plist */,
+				3A7F908E7F72C824E6232AC7C507ABE6 /* Pods-MCActivityButton-dummy.m */,
+				D250B4485A7CA93138A83BA4A3E8E7ED /* Pods-MCActivityButton-resources.sh */,
+				55F6B0C58CB4A0A510B4E89F068FDF9F /* Pods-MCActivityButton.debug.xcconfig */,
+				43307C1E9E4B10AB27E3A9DF9CA19940 /* Pods-MCActivityButton.release.xcconfig */,
 			);
 			name = "Pods-MCActivityButton";
 			path = "Target Support Files/Pods-MCActivityButton";
 			sourceTree = "<group>";
 		};
-		7F7DA9D3FEC95C15C26CABB2 /* Development Pods */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				61DF38168CC4A0B7C99228A9 /* MCActivityButton */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		88C521861CF967F80BFCE75E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E0EA0130B176DF35359BE96 /* Pods-MCActivityButton */,
-				0C93865AABCBEAACE1F80949 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8926B07D09ED43EAAD27EEA2 = {
-			isa = PBXGroup;
-			children = (
-				3F2BB0C70CDF54E68D50F6DD /* Podfile */,
-				7F7DA9D3FEC95C15C26CABB2 /* Development Pods */,
-				B7F60DA2DF54BB0F0D9C58C9 /* Frameworks */,
-				D9C6CAE25684C9BA44B478E3 /* Products */,
-				88C521861CF967F80BFCE75E /* Targets Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1B25AA7AE3501ABB5E2CFDA543A5C04A /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				304D267C65905FA1C88BA8AF0E46E635 /* Products */,
+				36935E107EC0FF71EEA1A4A2C41FFF1B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A824A62A21ADB917E3C2DA29 /* Support Files */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03B512680C202307A3414058 /* Pods-MCActivityButton-MCActivityButton.xcconfig */,
-				07DAFE0BC4DEA318CA91BF9E /* Pods-MCActivityButton-MCActivityButton-Private.xcconfig */,
-				6B1CE3E696FA3E6FD57B047A /* Pods-MCActivityButton-MCActivityButton-dummy.m */,
-				9BD63BE2E216EB60E4DAE3B5 /* Pods-MCActivityButton-MCActivityButton-prefix.pch */,
-				0C2C0AF27DDCDC5D51A86642 /* Pods-Tests-MCActivityButton.xcconfig */,
-				E169B399B7379F645C9C2B84 /* Pods-Tests-MCActivityButton-Private.xcconfig */,
-				A3BA8DF81649CE09D1EF45CD /* Pods-Tests-MCActivityButton-dummy.m */,
-				0B664D7D0072BD2CC263DA86 /* Pods-Tests-MCActivityButton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-MCActivityButton-MCActivityButton";
-			sourceTree = "<group>";
-		};
-		B7F60DA2DF54BB0F0D9C58C9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D30D163EB18F217DD7930B8E /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D30D163EB18F217DD7930B8E /* iOS */ = {
+		D8C3D4F0DDFD6543DEF7E532A279F71D /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC1E598E5EB6717D298ADA /* Foundation.framework */,
+				1714233C14474315EA25A4C9012A890C /* Pods-Tests-acknowledgements.markdown */,
+				4F5E2AA552A6829035B4C29FD5CCDA95 /* Pods-Tests-acknowledgements.plist */,
+				339A7422175D12AB337AF12829BD709B /* Pods-Tests-dummy.m */,
+				A7079F1623A7E63E20C2C8858A6AC2B9 /* Pods-Tests-resources.sh */,
+				B6057BD33FC08927FF57922155465D86 /* Pods-Tests.debug.xcconfig */,
+				AF4B82C7ACE8B05C466C3E282D0689AF /* Pods-Tests.release.xcconfig */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D9C6CAE25684C9BA44B478E3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C80D5084B4F6264C75033B06 /* MCActivityButton.bundle */,
-				982178405BB71B7C037BA913 /* MCActivityButton.bundle */,
-				979D7BAFAD1AF24580746FDF /* libPods-MCActivityButton.a */,
-				283BACB37417FE708C5D8EF7 /* libPods-MCActivityButton-MCActivityButton.a */,
-				F7BC570B7D345149ECDE38E6 /* libPods-Tests.a */,
-				E2AAB7A38E3ECEEECD15ABC6 /* libPods-Tests-MCActivityButton.a */,
-			);
-			name = Products;
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		740FA034DDBC6255CC6B51AF /* Headers */ = {
+		243CC968E70F3A5A25019C838E1479C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98D096884800A5884F4752D /* MCActivityButton.h in Headers */,
+				6F4A08ABAF87219D586367081D621991 /* MCActivityButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA76446725B3189C3CBAE535 /* Headers */ = {
+		638AA940C55058120DF3F769E90ABD1E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				465CC8445EAF089FA8A4F083 /* MCActivityButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9747A7B12213D8BBF459C76607FCCEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E9E113C39CC27AA6AF3965E /* Pods-MCActivityButton */ = {
+		81A3D4DE65432DFCEEFEB916B50F77DD /* Pods-MCActivityButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41CD44566326EDBAE1837A8D /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton" */;
+			buildConfigurationList = 92325A278D3E09A1183A01AE708C306D /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton" */;
 			buildPhases = (
-				42F192F318B3E56B4806516F /* Sources */,
-				D0389A808D42B19240393CB7 /* Frameworks */,
+				638AA940C55058120DF3F769E90ABD1E /* Headers */,
+				BF7CE49117E26B01D64249B5896BD284 /* Sources */,
+				27944B8D9E6AAE86D71187E094A1D595 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				251D9F64BB35669B880C89EC /* PBXTargetDependency */,
+				877CFBE1A0AD5908B5A7D8FDE3A400B4 /* PBXTargetDependency */,
 			);
 			name = "Pods-MCActivityButton";
 			productName = "Pods-MCActivityButton";
-			productReference = 979D7BAFAD1AF24580746FDF /* libPods-MCActivityButton.a */;
+			productReference = A1263234AA4A550B5BF4A2B6BD729766 /* Pods-MCActivityButton */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4218395C2A404CA7B143DBF5 /* Pods-Tests-MCActivityButton-MCActivityButton */ = {
+		958186CF7D75761173A23E66E0CCAF14 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69B29388B90992594CC6F5A8 /* Build configuration list for PBXNativeTarget "Pods-Tests-MCActivityButton-MCActivityButton" */;
+			buildConfigurationList = 07D3BB17445D6996AD65E1F08DDD3F23 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				6CBC9B801087B9AF9A70291D /* Sources */,
-				8AEFF9CBE6D964278C08DB70 /* Frameworks */,
-				23D1FE536E41A4238EFE2ED9 /* Resources */,
+				A9747A7B12213D8BBF459C76607FCCEE /* Headers */,
+				DFCB184467A1169F7DBD58406072DEBA /* Sources */,
+				28A10B7E62D75B1CF22BC1E9DE8B3A8E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Tests-MCActivityButton-MCActivityButton";
-			productName = "Pods-Tests-MCActivityButton-MCActivityButton";
-			productReference = C80D5084B4F6264C75033B06 /* MCActivityButton.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		66DBCA65C52A52AE168CC0D9 /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 08EEFFC385048B38BC81407E /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				F73F7769DE7980CCB46748DE /* Sources */,
-				24B6DD26D460803E55AAA225 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F189F2201348C59FF334EF20 /* PBXTargetDependency */,
+				553BE2ABED13F9D7B9E9375C4559D45F /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests";
 			productName = "Pods-Tests";
-			productReference = F7BC570B7D345149ECDE38E6 /* libPods-Tests.a */;
+			productReference = FC95D668E217CFBB25845AA15162348B /* Pods-Tests */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6D1A10472146C2702CC99CA9 /* Pods-MCActivityButton-MCActivityButton-MCActivityButton */ = {
+		CEFCBF6EA78408DB95B2F0CA0E1DA54B /* MCActivityButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1488199D74450CADF6AFD1E7 /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton-MCActivityButton-MCActivityButton" */;
+			buildConfigurationList = 5FF5CA53E0FAEA6EF09D8CB0A4A54B13 /* Build configuration list for PBXNativeTarget "MCActivityButton" */;
 			buildPhases = (
-				240F23A3334E83030BB541E8 /* Sources */,
-				C89280C4BC9338FD116956E1 /* Frameworks */,
-				F10DC60A7CB029968961CC7C /* Resources */,
+				243CC968E70F3A5A25019C838E1479C3 /* Headers */,
+				A02099CD3171D27E4CB44432CED4FFE2 /* Sources */,
+				1E710D03360572C9325C349825CCDAD2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1069B60D0123E925B8F48BBB934AC5 /* PBXTargetDependency */,
+			);
+			name = MCActivityButton;
+			productName = MCActivityButton;
+			productReference = 434147598FA8ADC7F1D6D30C2D898247 /* MCActivityButton */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA605978F559606B8277C0F2A5E665DF /* MCActivityButton-MCActivityButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7077B0B1729570E8166CCBCC988A5B95 /* Build configuration list for PBXNativeTarget "MCActivityButton-MCActivityButton" */;
+			buildPhases = (
+				CDFE5150A076C79E75AAB30CEC2EAAD0 /* Sources */,
+				FDBBF5EC647080FD270C88185B651BB5 /* Frameworks */,
+				514000C9011A76FE8D799CDC51715FF0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-MCActivityButton-MCActivityButton-MCActivityButton";
-			productName = "Pods-MCActivityButton-MCActivityButton-MCActivityButton";
-			productReference = 982178405BB71B7C037BA913 /* MCActivityButton.bundle */;
+			name = "MCActivityButton-MCActivityButton";
+			productName = MCActivityButton;
+			productReference = A403D8375BEE459B699AB28E57E8CE95 /* MCActivityButton-MCActivityButton */;
 			productType = "com.apple.product-type.bundle";
-		};
-		AC7ADD4BA8C3BB27933F25DB /* Pods-Tests-MCActivityButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1121ED762C941DC698E7B2EF /* Build configuration list for PBXNativeTarget "Pods-Tests-MCActivityButton" */;
-			buildPhases = (
-				52BF0689446743B9DAD39AE5 /* Sources */,
-				F271278FBBFE920AC07E9727 /* Frameworks */,
-				AA76446725B3189C3CBAE535 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06499EF74F33FAFA1D9E3507 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests-MCActivityButton";
-			productName = "Pods-Tests-MCActivityButton";
-			productReference = E2AAB7A38E3ECEEECD15ABC6 /* libPods-Tests-MCActivityButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		ACD3988D5D9319AF7E303753 /* Pods-MCActivityButton-MCActivityButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E682DD183DF494989B2BDEB /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton-MCActivityButton" */;
-			buildPhases = (
-				848ED7126475D4F0D1588F5B /* Sources */,
-				76E753CC98EA8C8A08B7E0CD /* Frameworks */,
-				740FA034DDBC6255CC6B51AF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00824C37DFEDD8E608B460F2 /* PBXTargetDependency */,
-			);
-			name = "Pods-MCActivityButton-MCActivityButton";
-			productName = "Pods-MCActivityButton-MCActivityButton";
-			productReference = 283BACB37417FE708C5D8EF7 /* libPods-MCActivityButton-MCActivityButton.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8FE14EC2F7608AB876B955A7 /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 155945CBD247A58B97CD41CB /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				Base,
 				en,
 			);
-			mainGroup = 8926B07D09ED43EAAD27EEA2;
-			productRefGroup = D9C6CAE25684C9BA44B478E3 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 304D267C65905FA1C88BA8AF0E46E635 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E9E113C39CC27AA6AF3965E /* Pods-MCActivityButton */,
-				ACD3988D5D9319AF7E303753 /* Pods-MCActivityButton-MCActivityButton */,
-				6D1A10472146C2702CC99CA9 /* Pods-MCActivityButton-MCActivityButton-MCActivityButton */,
-				66DBCA65C52A52AE168CC0D9 /* Pods-Tests */,
-				AC7ADD4BA8C3BB27933F25DB /* Pods-Tests-MCActivityButton */,
-				4218395C2A404CA7B143DBF5 /* Pods-Tests-MCActivityButton-MCActivityButton */,
+				CEFCBF6EA78408DB95B2F0CA0E1DA54B /* MCActivityButton */,
+				DA605978F559606B8277C0F2A5E665DF /* MCActivityButton-MCActivityButton */,
+				81A3D4DE65432DFCEEFEB916B50F77DD /* Pods-MCActivityButton */,
+				958186CF7D75761173A23E66E0CCAF14 /* Pods-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23D1FE536E41A4238EFE2ED9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F10DC60A7CB029968961CC7C /* Resources */ = {
+		514000C9011A76FE8D799CDC51715FF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,400 +349,400 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		240F23A3334E83030BB541E8 /* Sources */ = {
+		A02099CD3171D27E4CB44432CED4FFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63983E99941285F827D40C4379024922 /* MCActivityButton.m in Sources */,
+				8C7389C898F7002BC2E2369439A46322 /* MCActivityButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7CE49117E26B01D64249B5896BD284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BDC189E74F384D4669833AD9685DA7 /* Pods-MCActivityButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFE5150A076C79E75AAB30CEC2EAAD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42F192F318B3E56B4806516F /* Sources */ = {
+		DFCB184467A1169F7DBD58406072DEBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F204725D9471A728F9E96DDD /* Pods-MCActivityButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52BF0689446743B9DAD39AE5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				843C14E00AC03383C54A4A08 /* MCActivityButton.m in Sources */,
-				6CAA6D12885736C44E81F328 /* Pods-Tests-MCActivityButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CBC9B801087B9AF9A70291D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		848ED7126475D4F0D1588F5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				139D9CB8DE021AD45DD5C47F /* MCActivityButton.m in Sources */,
-				DB397B467BC368FEFDA58EF5 /* Pods-MCActivityButton-MCActivityButton-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F73F7769DE7980CCB46748DE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3DE0578FA6A710D5FE38541 /* Pods-Tests-dummy.m in Sources */,
+				AC821241D3F987DCAF7D096F2B064B68 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00824C37DFEDD8E608B460F2 /* PBXTargetDependency */ = {
+		553BE2ABED13F9D7B9E9375C4559D45F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-MCActivityButton-MCActivityButton-MCActivityButton";
-			target = 6D1A10472146C2702CC99CA9 /* Pods-MCActivityButton-MCActivityButton-MCActivityButton */;
-			targetProxy = A909EC16147098C743045E5A /* PBXContainerItemProxy */;
+			name = MCActivityButton;
+			target = CEFCBF6EA78408DB95B2F0CA0E1DA54B /* MCActivityButton */;
+			targetProxy = 0F5A324AE1375AB7CA5E6DE7E8579CB8 /* PBXContainerItemProxy */;
 		};
-		06499EF74F33FAFA1D9E3507 /* PBXTargetDependency */ = {
+		877CFBE1A0AD5908B5A7D8FDE3A400B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-MCActivityButton-MCActivityButton";
-			target = 4218395C2A404CA7B143DBF5 /* Pods-Tests-MCActivityButton-MCActivityButton */;
-			targetProxy = 265B6C0506C82487250517FF /* PBXContainerItemProxy */;
+			name = MCActivityButton;
+			target = CEFCBF6EA78408DB95B2F0CA0E1DA54B /* MCActivityButton */;
+			targetProxy = C8E2001933687B497B3966C5F3608CFA /* PBXContainerItemProxy */;
 		};
-		251D9F64BB35669B880C89EC /* PBXTargetDependency */ = {
+		BA1069B60D0123E925B8F48BBB934AC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-MCActivityButton-MCActivityButton";
-			target = ACD3988D5D9319AF7E303753 /* Pods-MCActivityButton-MCActivityButton */;
-			targetProxy = 89958CDF05E3C6366B4F1CF9 /* PBXContainerItemProxy */;
-		};
-		F189F2201348C59FF334EF20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-MCActivityButton";
-			target = AC7ADD4BA8C3BB27933F25DB /* Pods-Tests-MCActivityButton */;
-			targetProxy = E0A7D9AB2122C0ECFE4885E3 /* PBXContainerItemProxy */;
+			name = "MCActivityButton-MCActivityButton";
+			target = DA605978F559606B8277C0F2A5E665DF /* MCActivityButton-MCActivityButton */;
+			targetProxy = 2160623865A6596C189ED7CF28574E44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		025B48E6230FFE92E8B24603 /* Debug */ = {
+		0B5430D3FC05308D130F2A187CB7BFFF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E169B399B7379F645C9C2B84 /* Pods-Tests-MCActivityButton-Private.xcconfig */;
+			baseConfigurationReference = 1E73719CBD12DDD87273CD4B5518340F /* MCActivityButton.debug.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MCActivityButton/MCActivityButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MCActivityButton;
+				PRODUCT_NAME = MCActivityButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D33E492D2379F36EED3247FFAA251AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE3A9FD19D82FCC085840214CC7D437 /* MCActivityButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MCActivityButton";
+				IBSC_MODULE = MCActivityButton;
+				INFOPLIST_FILE = "Target Support Files/MCActivityButton/ResourceBundle-MCActivityButton-MCActivityButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = MCActivityButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		242917522AC5547679309BA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07DAFE0BC4DEA318CA91BF9E /* Pods-MCActivityButton-MCActivityButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MCActivityButton-MCActivityButton/Pods-MCActivityButton-MCActivityButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		2F87F97E5866E32D027A15BE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		36B89E134C7C0156F6A69D65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E169B399B7379F645C9C2B84 /* Pods-Tests-MCActivityButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-MCActivityButton/Pods-Tests-MCActivityButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		521A5FD8A0A1CAF2DDFE2BA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E169B399B7379F645C9C2B84 /* Pods-Tests-MCActivityButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MCActivityButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		586276ED7B8F28D8F5B1DCC4 /* Release */ = {
+		425CB0AFB8F97100B5C8956DEF98B633 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6057BD33FC08927FF57922155465D86 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43CA58A67BC979D6EB709A2D7D7B38F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE3A9FD19D82FCC085840214CC7D437 /* MCActivityButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MCActivityButton/MCActivityButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MCActivityButton;
+				PRODUCT_NAME = MCActivityButton;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5A1656E28016F322C0A96CAA /* Debug */ = {
+		65DB27ED69FFF945661681B460966A15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A574C009A4EDDB0B6161C8E /* Pods-MCActivityButton.debug.xcconfig */;
+			baseConfigurationReference = AF4B82C7ACE8B05C466C3E282D0689AF /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A9E0EAB39303B079D6A4F631DB433491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43307C1E9E4B10AB27E3A9DF9CA19940 /* Pods-MCActivityButton.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3F5AA3FC1244B3C3EA29C7DFC8A46CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F6B0C58CB4A0A510B4E89F068FDF9F /* Pods-MCActivityButton.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5EC07C7D55B5DD6075406FB0 /* Debug */ = {
+		C0F7196D4BC2F22FD5A10FFA81504390 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07DAFE0BC4DEA318CA91BF9E /* Pods-MCActivityButton-MCActivityButton-Private.xcconfig */;
+			baseConfigurationReference = 1E73719CBD12DDD87273CD4B5518340F /* MCActivityButton.debug.xcconfig */;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MCActivityButton";
+				IBSC_MODULE = MCActivityButton;
+				INFOPLIST_FILE = "Target Support Files/MCActivityButton/ResourceBundle-MCActivityButton-MCActivityButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = MCActivityButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		75545981819944FE7F3126E9 /* Release */ = {
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07DAFE0BC4DEA318CA91BF9E /* Pods-MCActivityButton-MCActivityButton-Private.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-MCActivityButton-MCActivityButton/Pods-MCActivityButton-MCActivityButton-prefix.pch";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8E51A752FEB0FE7C8C0B00E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCE07A97A297B9A417058647 /* Pods-MCActivityButton.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		994B803916D97562EC0E79B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07DAFE0BC4DEA318CA91BF9E /* Pods-MCActivityButton-MCActivityButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MCActivityButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		A47C182374B289295179BE9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E169B399B7379F645C9C2B84 /* Pods-Tests-MCActivityButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-MCActivityButton/Pods-Tests-MCActivityButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D1A175A06298281105FD8497 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2186682A1D9C2011E3408C02 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		F49E9A46FEBB2DA0E6A755D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F45FDBE8EA29FCF64E236ADC /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08EEFFC385048B38BC81407E /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		07D3BB17445D6996AD65E1F08DDD3F23 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1A175A06298281105FD8497 /* Debug */,
-				F49E9A46FEBB2DA0E6A755D2 /* Release */,
+				425CB0AFB8F97100B5C8956DEF98B633 /* Debug */,
+				65DB27ED69FFF945661681B460966A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1121ED762C941DC698E7B2EF /* Build configuration list for PBXNativeTarget "Pods-Tests-MCActivityButton" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36B89E134C7C0156F6A69D65 /* Debug */,
-				A47C182374B289295179BE9B /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1488199D74450CADF6AFD1E7 /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton-MCActivityButton-MCActivityButton" */ = {
+		5FF5CA53E0FAEA6EF09D8CB0A4A54B13 /* Build configuration list for PBXNativeTarget "MCActivityButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EC07C7D55B5DD6075406FB0 /* Debug */,
-				994B803916D97562EC0E79B8 /* Release */,
+				0B5430D3FC05308D130F2A187CB7BFFF /* Debug */,
+				43CA58A67BC979D6EB709A2D7D7B38F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		155945CBD247A58B97CD41CB /* Build configuration list for PBXProject "Pods" */ = {
+		7077B0B1729570E8166CCBCC988A5B95 /* Build configuration list for PBXNativeTarget "MCActivityButton-MCActivityButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F87F97E5866E32D027A15BE /* Debug */,
-				586276ED7B8F28D8F5B1DCC4 /* Release */,
+				C0F7196D4BC2F22FD5A10FFA81504390 /* Debug */,
+				0D33E492D2379F36EED3247FFAA251AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41CD44566326EDBAE1837A8D /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton" */ = {
+		92325A278D3E09A1183A01AE708C306D /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A1656E28016F322C0A96CAA /* Debug */,
-				8E51A752FEB0FE7C8C0B00E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5E682DD183DF494989B2BDEB /* Build configuration list for PBXNativeTarget "Pods-MCActivityButton-MCActivityButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				242917522AC5547679309BA2 /* Debug */,
-				75545981819944FE7F3126E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		69B29388B90992594CC6F5A8 /* Build configuration list for PBXNativeTarget "Pods-Tests-MCActivityButton-MCActivityButton" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				025B48E6230FFE92E8B24603 /* Debug */,
-				521A5FD8A0A1CAF2DDFE2BA8 /* Release */,
+				B3F5AA3FC1244B3C3EA29C7DFC8A46CE /* Debug */,
+				A9E0EAB39303B079D6A4F631DB433491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8FE14EC2F7608AB876B955A7 /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
